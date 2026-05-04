@@ -162,3 +162,31 @@
 2026-05-03 22:05:37,070 - INFO - starting process for Cliente[ID: 1007 |Nombre: Eva Luna |Email: eva@fj.com |Tel: 3104567890]
 2026-05-03 22:05:37,070 - INFO - Transaction completed successfully.
 2026-05-03 22:05:37,070 - INFO - Created reservation for client '1007' and service 'S3' with duration 10.
+2026-05-04 08:25:13,070 - INFO - Registered service: S1
+2026-05-04 08:25:13,071 - INFO - Registered service: S2
+2026-05-04 08:25:13,071 - INFO - Registered service: S3
+2026-05-04 08:25:13,071 - INFO - Registered customer: 1001
+2026-05-04 08:25:13,072 - INFO - starting process for Cliente[ID: 1001 |Nombre: Ana Garcia |Email: ana@fj.com |Tel: 3001234567]
+2026-05-04 08:25:13,072 - INFO - Transaction completed successfully.
+2026-05-04 08:25:13,073 - INFO - Created reservation for client '1001' and service 'S1' with duration 5.
+2026-05-04 08:25:13,073 - INFO - Registered customer: 1002
+2026-05-04 08:25:13,073 - INFO - starting process for Cliente[ID: 1002 |Nombre: Luis Perez |Email: luis@fj.com |Tel: 3109876543]
+2026-05-04 08:25:13,073 - INFO - Transaction completed successfully.
+2026-05-04 08:25:13,074 - INFO - Created reservation for client '1002' and service 'S3' with duration 2.
+2026-05-04 08:25:13,074 - WARNING - Failed to register customer: ID 'ABC' Solo se permiten numeros.
+2026-05-04 08:25:13,074 - INFO - Registered customer: 1003
+2026-05-04 08:25:13,074 - INFO - Registered customer: 1004
+2026-05-04 08:25:13,075 - INFO - Registered customer: 1005
+2026-05-04 08:25:13,075 - INFO - starting process for Cliente[ID: 1005 |Nombre: Rosa Sol |Email: rosa@fj.com |Tel: 3001239876]
+2026-05-04 08:25:13,075 - INFO - Transaction completed successfully.
+2026-05-04 08:25:13,075 - INFO - Created reservation for client '1005' and service 'S3' with duration 8.
+2026-05-04 08:25:13,075 - INFO - Registered customer: 9999
+2026-05-04 08:25:13,075 - INFO - Registered customer: 1006
+2026-05-04 08:25:13,075 - INFO - starting process for Cliente[ID: 1006 |Nombre: Ian Cook |Email: ian@fj.com |Tel: 3151234321]
+2026-05-04 08:25:13,076 - INFO - Transaction completed successfully.
+2026-05-04 08:25:13,076 - INFO - Created reservation for client '1006' and service 'S1' with duration 2.
+2026-05-04 08:25:13,076 - WARNING - Failed to register customer: ID 'INVALID' Solo se permiten numeros.
+2026-05-04 08:25:13,077 - INFO - Registered customer: 1007
+2026-05-04 08:25:13,077 - INFO - starting process for Cliente[ID: 1007 |Nombre: Eva Luna |Email: eva@fj.com |Tel: 3104567890]
+2026-05-04 08:25:13,077 - INFO - Transaction completed successfully.
+2026-05-04 08:25:13,077 - INFO - Created reservation for client '1007' and service 'S3' with duration 10.
