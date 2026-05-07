@@ -1,0 +1,18 @@
+2026-05-07 11:56:24,413 - INFO - Iniciando proceso de reserva para: Kevin Aguiar
+2026-05-07 11:56:24,413 - INFO - Transacción finalizada con éxito para Kevin Aguiar
+2026-05-07 11:56:24,414 - INFO - Iniciando proceso de reserva para: Ana Lopez
+2026-05-07 11:56:24,414 - INFO - Transacción finalizada con éxito para Ana Lopez
+2026-05-07 11:56:24,414 - WARNING - Operación 3 fallida por datos de cliente: El correo 'correo_malo' no tiene un formato válido.
+2026-05-07 11:56:24,414 - INFO - Iniciando proceso de reserva para: Luis Perez
+2026-05-07 11:56:24,414 - ERROR - Fallo en reserva por disponibilidad: El servicio 'Kit de Laptops' no está disponible actualmente.
+2026-05-07 11:56:24,414 - INFO - Iniciando proceso de reserva para: Marta Ruiz
+2026-05-07 11:56:24,414 - INFO - Transacción finalizada con éxito para Marta Ruiz
+2026-05-07 11:56:24,414 - INFO - Iniciando proceso de reserva para: Jose Gil
+2026-05-07 11:56:24,414 - INFO - Transacción finalizada con éxito para Jose Gil
+2026-05-07 11:56:24,414 - INFO - Iniciando proceso de reserva para: Rosa Sol
+2026-05-07 11:56:24,414 - ERROR - Fallo en reserva por disponibilidad: El servicio 'Kit de Laptops' no está disponible actualmente.
+2026-05-07 11:56:24,414 - INFO - Iniciando proceso de reserva para: Ian Cook
+2026-05-07 11:56:24,414 - INFO - Transacción finalizada con éxito para Ian Cook
+2026-05-07 11:56:24,415 - INFO - Iniciando proceso de reserva para: Eva Luna
+2026-05-07 11:56:24,415 - INFO - Transacción finalizada con éxito para Eva Luna
+2026-05-07 11:56:24,415 - WARNING - Operación 10 fallida por datos de cliente: El correo ' ' no tiene un formato válido.
