@@ -10,3 +10,15 @@ class InvalidDataError(SoftwareFJError):
 class ServiceUnavailableError(SoftwareFJError):
     """Se lanza cuando un servicio no está disponible."""
     pass
+
+class DuracionInvalidaError(SoftwareFJError):
+    """Se lanza cuando la duración de una reserva es inválida (cero o negativa)."""
+    pass
+
+class DescuentoInvalidoError(SoftwareFJError):
+    """Se lanza cuando el descuento aplicado está fuera del rango permitido (0% - 50%)."""
+    pass
+
+class ReservaInvalidaError(SoftwareFJError):
+    """Se lanza cuando una reserva no puede confirmarse o cancelarse."""
+    pass

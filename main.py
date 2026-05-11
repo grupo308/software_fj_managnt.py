@@ -2,6 +2,7 @@ import logging
 from cliente import Cliente, ClienteInvalidoError
 from servicios import ReservaSalas, AlquilerEquipos, AsesoriaEspecializada
 from reserva import Reserva
+from excepciones import SoftwareFJError, DuracionInvalidaError
 from excepciones import SoftwareFJError
 
 # Configuración global del archivo de Logs (error_log.txt) [cite: 92, 105]
@@ -27,6 +28,7 @@ def ejecutar_simulacion():
         ("Error User", "correo_malo", "123", "103", sala, 5),                      # 3. Fallo (Datos inválidos)
         ("Luis Perez", "luis@mail.com", "3201112233", "104", equipos, 4),         # 4. Fallo (Sin disponibilidad)
         ("Marta Ruiz", "marta@mail.com", "3004445566", "105", asesoria, 1),       # 5. Exitosa
+        ("Jose Gil", "jose@mail.com", "3157778899", "106", sala, 0),              # 6. Fallo (Duración inválida)
         ("Jose Gil", "jose@mail.com", "3157778899", "106", sala, 0),              # 6. Exitosa (Costo 0)
         ("Rosa Sol", "rosa@mail.com", "3001239876", "107", equipos, 2),           # 7. Fallo (Sin disponibilidad)
         ("Ian Cook", "ian@mail.com", "3151234321", "108", sala, 2),               # 8. Exitosa
@@ -48,6 +50,12 @@ def ejecutar_simulacion():
             print(f"✘ Error en datos del cliente: {e}")
             logging.warning(f"Operación {i} fallida por datos de cliente: {e}")
             print("-" * 30)
+            
+        except DuracionInvalidaError as e:
+            print(f"✘ Error en duración de reserva: {e}")
+            logging.warning(f"Operación {i} fallida por duración inválida: {e}")
+            print("-" * 30)
+            
         except SoftwareFJError as e:
             print(f"✘ Error de negocio: {e}")
             print("-" * 30)
