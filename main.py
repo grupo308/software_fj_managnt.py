@@ -3,6 +3,7 @@ from cliente import Cliente, ClienteInvalidoError
 from servicios import ReservaSalas, AlquilerEquipos, AsesoriaEspecializada
 from reserva import Reserva
 from excepciones import SoftwareFJError, DuracionInvalidaError
+from excepciones import SoftwareFJError
 
 # Configuración global del archivo de Logs (error_log.txt) [cite: 92, 105]
 logging.basicConfig(
@@ -28,6 +29,7 @@ def ejecutar_simulacion():
         ("Luis Perez", "luis@mail.com", "3201112233", "104", equipos, 4),         # 4. Fallo (Sin disponibilidad)
         ("Marta Ruiz", "marta@mail.com", "3004445566", "105", asesoria, 1),       # 5. Exitosa
         ("Jose Gil", "jose@mail.com", "3157778899", "106", sala, 0),              # 6. Fallo (Duración inválida)
+        ("Jose Gil", "jose@mail.com", "3157778899", "106", sala, 0),              # 6. Exitosa (Costo 0)
         ("Rosa Sol", "rosa@mail.com", "3001239876", "107", equipos, 2),           # 7. Fallo (Sin disponibilidad)
         ("Ian Cook", "ian@mail.com", "3151234321", "108", sala, 2),               # 8. Exitosa
         ("Eva Luna", "eva@mail.com", "3104567890", "109", asesoria, 10),          # 9. Exitosa
