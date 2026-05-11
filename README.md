@@ -23,7 +23,7 @@ Estudiante 1: Ivan Darío Saenz Lugo
 Estudiante 2: Duván Andrés Fajardo Mejía
 Estudiante 3: Eliana Marcela Rojas Garzón
 Estudiante 4: Kevin Arley Aguiar Rubiano
-Estudiante 5:
+
 
 
 ## Correcciones Aplicadas
@@ -33,3 +33,5 @@ Estudiante 5:
 4. **Logs:** Limpieza de mensajes en `error_log.txt`.
 5. **Validación:** Control de duración > 0.
 6. **Estructura:** README detallado.
+
+·GOOD JOB CLASSMATES
